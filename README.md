@@ -37,8 +37,8 @@ Pas de build nécessaire.
 1. Cloner le repo :
 
    ```bash
-   git clone https://github.com/<tonUser>/advanced-portfolio-julieducourt.git
-   cd advanced-portfolio-julieducourt
+   git clone https://github.com/yasmineattou/advanced-portfolio-YasmineAttou.git
+   cd advanced-portfolio-YasmineAttou
 2. Ouvrir index.html dans un navigateur :
 soit double-clic sur index.html,
 soit via un petit serveur local (ex. VS Code Live Server).
