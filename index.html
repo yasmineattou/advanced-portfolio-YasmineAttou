@@ -1,0 +1,425 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <title>Julie Ducourt – Freelance UX & Développeuse web</title>
+
+    <!-- SEO de base -->
+    <meta name="description"
+        content="Freelance UX & développement web basée en Belgique. Je conçois des interfaces claires, rapides et utiles, de l'idée au produit en production." />
+
+    <!-- Open Graph -->
+    <meta property="og:title" content="Julie Ducourt – Freelance UX & Dev web" />
+    <meta property="og:description"
+        content="Freelance UX & full-stack. J'aide les équipes à transformer une idée floue en produit utilisable, performant et maintenable." />
+    <meta property="og:image" content="https://example.com/assets/images/og-image.jpg" />
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://example.com/" />
+
+    <!-- Sitemap (fictif accepté) -->
+    <link rel="sitemap" type="application/xml" href="/sitemap.xml" />
+
+    <!-- Bootstrap 5 (CSS only) -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous" />
+
+    <!-- Font Awesome (icônes) -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
+
+    <!-- CSS custom -->
+    <link rel="stylesheet" href="assets/css/styles.css" />
+</head>
+
+<body>
+    <a href="#main" class="skip-link">Aller au contenu principal</a>
+
+    <header class="site-header sticky-top" id="accueil">
+        <div class="container d-flex align-items-center justify-content-between">
+            <span class="logo">Julie Ducourt</span>
+
+            <nav class="nav" role="navigation" aria-label="Navigation principale">
+                <ul>
+                    <li><a href="#accueil" class="active">Accueil</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#projets">Projets</a></li>
+                    <li><a href="#competences">Compétences</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main id="main">
+        <!-- HERO -->
+        <section class="hero">
+            <div class="container hero-inner">
+                <div class="hero-text">
+                    <div class="hero-kicker">
+                        <span class="badge-dot" aria-hidden="true"></span>
+                        <span>Freelance UX &amp; Développement web</span>
+                    </div>
+                    <h1>Je conçois des interfaces <span>claires, rapides</span> et utiles.</h1>
+                    <h2>
+                        Freelance UX &amp; full-stack basée en Belgique. J'aide les équipes à transformer une idée floue
+                        en produit utilisable, performant et maintenable.
+                    </h2>
+                    <p>
+                        De la recherche UX au développement front/back, j'accompagne votre produit sur tout le cycle de
+                        vie :
+                        cadrage, design, implémentation, optimisation. Objectif : réduire la complexité pour vous, et
+                        pour vos
+                        utilisateurs.
+                    </p>
+
+                    <ul class="hero-usp-list">
+                        <li>Ateliers, wireframes, maquettes haute fidélité</li>
+                        <li>Développement front accessible (HTML, CSS, JS, Angular)</li>
+                        <li>Back-end Python / PHP, intégration MySQL</li>
+                        <li>Optimisation perf &amp; audit accessibilité</li>
+                    </ul>
+
+                    <div class="hero-buttons">
+                        <!-- CTA principal : Demander un devis -->
+                        <a href="#contact" class="btn-primary">
+                            Demander un devis
+                            <i class="fa-solid fa-arrow-right" aria-hidden="true"></i>
+                        </a>
+
+                        <!-- CTA secondaire -->
+                        <a href="#services" class="btn-secondary">
+                            Voir mes services
+                        </a>
+                    </div>
+
+                    <div class="hero-meta">
+                        <span class="chip">UX &amp; Dev full-stack</span>
+                        <small>En solo ou en renfort d’une équipe existante.</small>
+                    </div>
+                </div>
+
+                <div class="hero-avatar" aria-hidden="true">
+                    <div class="avatar-card">
+                        <div class="avatar-inner">
+                            <img src="assets/images/femme.jpg" width="320"
+                                height="320" loading="lazy" />
+                            <div class="availability-badge">
+                                <span class="availability-badge-dot"></span>
+                                <div>
+                                    <strong>Disponible pour des projets</strong>
+                                    <small>Mission courte ou accompagnement continu.</small>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+
+        <!-- SERVICES -->
+        <section class="services" id="services">
+            <div class="container">
+                <div class="services-header">
+                    <div>
+                        <div class="section-kicker">Services</div>
+                        <h2 class="section-title">
+                            Du premier atelier à la mise en prod
+                        </h2>
+                        <div class="underline"></div>
+                    </div>
+                    <p class="services-note">
+                        J'interviens sur des missions ponctuelles (MVP, refonte d’écran clé)
+                        ou en accompagnement continu avec votre équipe produit ou technique.
+                    </p>
+                </div>
+
+                <div class="cards">
+                    <article class="card">
+                        <div class="icon">UX</div>
+                        <h3>UX / UI Design</h3>
+                        <p>
+                            Clarifier le besoin, aligner les équipes, rendre l’interface évidente
+                            pour vos utilisateurs.
+                        </p>
+                        <ul>
+                            <li>Ateliers de cadrage &amp; parcours utilisateur</li>
+                            <li>Wireframes &amp; maquettes haute fidélité</li>
+                            <li>Design system léger et réutilisable</li>
+                        </ul>
+                    </article>
+
+                    <article class="card">
+                        <div class="icon"><i class="fa-solid fa-code"></i></div>
+                        <h3>Développement Front-end</h3>
+                        <p>
+                            Implémentation propre, composants réutilisables et pages qui se chargent vite,
+                            même sur des connexions moyennes.
+                        </p>
+                        <ul>
+                            <li>Intégration HTML / CSS / JavaScript</li>
+                            <li>Front moderne (Angular)</li>
+                            <li>Accessibilité (ARIA, clavier, contraste)</li>
+                        </ul>
+                    </article>
+
+                    <article class="card">
+                        <div class="icon"><i class="fa-solid fa-database"></i></div>
+                        <h3>Back-end &amp; données</h3>
+                        <p>
+                            Un socle solide pour vos fonctionnalités métier et vos données.
+                        </p>
+                        <ul>
+                            <li>APIs en Python / PHP</li>
+                            <li>Base de données MySQL</li>
+                            <li>Déploiement sur stack Apache</li>
+                        </ul>
+                    </article>
+
+                    <article class="card">
+                        <div class="icon"><i class="fa-solid fa-gauge-high"></i></div>
+                        <h3>Audit &amp; optimisation</h3>
+                        <p>
+                            Améliorer l’existant sans tout réécrire : mieux cibler, mesurer, optimiser.
+                        </p>
+                        <ul>
+                            <li>Audit de performance &amp; bundle</li>
+                            <li>Diagnostic UX rapide sur vos écrans clés</li>
+                            <li>Plan d’action priorisé et pragmatique</li>
+                        </ul>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <!-- PROJETS (preuves + KPI) -->
+        <section class="projects" id="projets">
+            <div class="container">
+                <div class="section-kicker">Projets</div>
+                <h2 class="section-title">Des résultats mesurables</h2>
+                <p class="section-intro">
+                    Quelques missions accompagnées récemment, avec des indicateurs concrets côté business et côté
+                    utilisateur.
+                </p>
+
+                <div class="cards">
+                    <article class="card project-card">
+                        <div class="project-image-wrapper">
+                            <span class="badge-nouveau">Nouveau</span>
+                            <img src=""
+                                alt="Interface d'application SaaS après refonte de l'onboarding" width="400"
+                                height="250" loading="lazy" decoding="async" />
+                        </div>
+                        <h3>Refonte onboarding SaaS B2B</h3>
+                        <p>Parcours simplifié, friction réduite et messages plus clairs.</p>
+                        <ul>
+                            <li><strong>+22&nbsp;%</strong> de conversions essai → payant</li>
+                            <li><strong>-18&nbsp;%</strong> de tickets support sur l’onboarding</li>
+                        </ul>
+                    </article>
+
+                    <article class="card project-card">
+                        <div class="project-image-wrapper">
+                            <span class="badge-nouveau">Nouveau</span>
+                            <img src="" alt="Interface e-commerce optimisée pour le mobile"
+                                width="400" height="250" loading="lazy" decoding="async" />
+                        </div>
+                        <h3>Optimisation mobile e-commerce</h3>
+                        <p>Performance et clarté des parcours d’achat sur mobile.</p>
+                        <ul>
+                            <li><strong>+15&nbsp;%</strong> d’ajouts au panier</li>
+                            <li><strong>-30&nbsp;%</strong> de temps de chargement sur la home</li>
+                        </ul>
+                    </article>
+
+                    <article class="card project-card">
+                        <div class="project-image-wrapper">
+                            <span class="badge-nouveau">Nouveau</span>
+                            <img src=""
+                                alt="Dashboard B2B clarifié pour une équipe opérationnelle" width="400" height="250"
+                                loading="lazy" decoding="async" />
+                        </div>
+                        <h3>Dashboard B2B clarifié</h3>
+                        <p>Hiérarchie d’information revue pour les équipes opérationnelles.</p>
+                        <ul>
+                            <li><strong>-25&nbsp;%</strong> de temps passé par tâche</li>
+                            <li><strong>+12&nbsp;%</strong> de satisfaction utilisateur (NPS interne)</li>
+                        </ul>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <!-- COMPÉTENCES -->
+        <section class="skills" id="competences">
+            <div class="container">
+                <div class="section-kicker">Compétences</div>
+                <h2 class="section-title">Ce avec quoi je travaille au quotidien</h2>
+                <p class="section-intro">
+                    Je combine une base solide sur le trio HTML / CSS / JavaScript avec des compétences
+                    back-end pour aller plus loin que le simple site vitrine.
+                </p>
+
+                <div class="skills-grid">
+                    <div class="skills-column">
+                        <h3>Front-end</h3>
+
+                        <div class="skill">
+                            <div class="skill-header">
+                                <span>HTML</span>
+                            </div>
+                            <div class="skill-icon">
+                                <i class="fa-solid fa-code" style="font-size: 2rem; color: #4CAF50;"></i>
+                                <span class="percent">95%</span>
+                            </div>
+                        </div>
+
+                        <div class="skill">
+                            <div class="skill-header">
+                                <span>CSS / Responsive</span>
+                            </div>
+                            <div class="skill-icon">
+                                <i class="fa-solid fa-paint-brush" style="font-size: 2rem; color: #2196F3;"></i>
+                                <span class="percent">90%</span>
+                            </div>
+                        </div>
+
+                        <div class="skill">
+                            <div class="skill-header">
+                                <span>JavaScript</span>
+                            </div>
+                            <div class="skill-icon">
+                                <i class="fa-brands fa-js" style="font-size: 2rem; color: #F7DF1E;"></i>
+                                <span class="percent">85%</span>
+                            </div>
+                        </div>
+
+                        <div class="skill">
+                            <div class="skill-header">
+                                <span>Angular</span>
+                            </div>
+                            <div class="skill-icon">
+                                <i class="fa-brands fa-angular" style="font-size: 2rem; color: #DD0031;"></i>
+                                <span class="percent">80%</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="skills-column">
+                        <h3>Back-end &amp; infra</h3>
+
+                        <div class="skill">
+                            <div class="skill-header">
+                                <span>Python</span>
+                            </div>
+                            <div class="skill-icon">
+                                <i class="fa-brands fa-python" style="font-size: 2rem; color: #3776AB;"></i>
+                                <span class="percent">75%</span>
+                            </div>
+                        </div>
+
+                        <div class="skill">
+                            <div class="skill-header">
+                                <span>MySQL</span>
+                            </div>
+                            <div class="skill-icon">
+                                <i class="fa-solid fa-database" style="font-size: 2rem; color: #F29111;"></i>
+                                <span class="percent">70%</span>
+                            </div>
+                        </div>
+
+                        <div class="skill">
+                            <div class="skill-header">
+                                <span>PHP</span>
+                            </div>
+                            <div class="skill-icon">
+                                <i class="fa-brands fa-php" style="font-size: 2rem; color: #777BB4;"></i>
+                                <span class="percent">65%</span>
+                            </div>
+                        </div>
+
+                        <div class="skill">
+                            <div class="skill-header">
+                                <span>Apache</span>
+                            </div>
+                            <div class="skill-icon">
+                                <i class="fa-solid fa-server" style="font-size: 2rem; color: #808080;"></i>
+                                <span class="percent">60%</span>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+
+        <!-- CONTACT + mailto + formulaire -->
+        <section class="cta" id="contact">
+            <div class="container">
+                <div class="section-kicker">Contact</div>
+                <h2 class="section-title">Prêt à démarrer un projet&nbsp;?</h2>
+                <p>
+                    Vous avez une idée de produit, une interface à simplifier ou un site qui a besoin d’un coup de frais
+                    ?
+                    Parlons de votre contexte, de vos contraintes et de ce que je peux faire en quelques semaines, pas
+                    en quelques années.
+                </p>
+
+                <p>
+                    Vous pouvez m’écrire directement à
+                    <a href="mailto:julie.ducourt@example.com">julie.ducourt@example.com</a>
+                    ou utiliser le formulaire ci-dessous.
+                </p>
+
+                <a href="mailto:julie.ducourt@example.com?subject=Demande%20devis" class="cta-button">
+                    Demander un devis
+                    <i class="fa-regular fa-paper-plane" aria-hidden="true"></i>
+                </a>
+
+                <form class="contact-form" action="#" method="post" novalidate>
+                    <div class="form-row">
+                        <label for="nom">Nom</label>
+                        <input id="nom" name="nom" type="text" required autocomplete="name" />
+                    </div>
+
+                    <div class="form-row">
+                        <label for="email">Email</label>
+                        <input id="email" name="email" type="email" required autocomplete="email" />
+                    </div>
+
+                    <div class="form-row">
+                        <label for="message">Message</label>
+                        <textarea id="message" name="message" rows="4" required autocomplete="off"></textarea>
+                    </div>
+
+                    <button type="submit" class="btn-primary">
+                        Envoyer le message
+                    </button>
+                </form>
+            </div>
+        </section>
+    </main>
+
+    <!-- FOOTER -->
+    <footer class="footer">
+        <div class="container footer-top">
+            <p>© 2025 Julie Ducourt. Tous droits réservés.</p>
+
+            <div class="footer-socials">
+                <a href="https://github.com/ton-github" target="_blank" rel="noopener" aria-label="GitHub">
+                    <i class="fa-brands fa-github fa-lg"></i>
+                </a>
+                <a href="https://www.linkedin.com/in/ton-linkedin" target="_blank" rel="noopener" aria-label="LinkedIn">
+                    <i class="fa-brands fa-linkedin-in fa-lg"></i>
+                </a>
+                <a href="mailto:julie.ducourt@example.com" aria-label="Email">
+                    <i class="fa-regular fa-envelope fa-lg"></i>
+                </a>
+            </div>
+        </div>
+    </footer>
+</body>
+
+</html>
