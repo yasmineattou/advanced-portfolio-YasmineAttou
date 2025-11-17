@@ -64,3 +64,29 @@ soit via un petit serveur local (ex. VS Code Live Server).
  Git : branche feature/hero, PR, squash, tag v1.0.0 NOK
  Issue « Fix: CTA non cliquable sur mobile » NOK
  GitHub Pages activé NOK
+
+---
+
+## Scores Lighthouse
+Tests réalisés en local (Chrome Lighthouse) sur la page index.html :
+Performance : 100
+Accessibilité : 96
+Best Practices : 100
+SEO : 100
+
+<img width="707" height="713" alt="ScoresLighthouse" src="https://github.com/user-attachments/assets/987b3f70-506d-4b44-a1e1-cae26c1d524c" />
+
+
+Tutoriel: Comment faire le Lighthouse et la capture
+En local (fichier `index.html` ouvert):
+1. Ouvre `index.html` dans Chrome.
+2. Ouvre les DevTools : `F12` ou clic droit → **Inspecter**.
+3. Onglet **Lighthouse**.
+4. Coche :
+   - Mode : *Desktop* (et éventuellement *Mobile* si tu veux),
+   - Catégories : Perf, A11y, Best Practices, SEO.
+5. Clique sur **Analyze page load**.
+6. Une fois le rapport généré :
+   - prends une capture d’écran des scores,
+   - enregistre-la dans `assets/images/lighthouse.png`.
+7. Ajoute l’image dans ton README comme ci-dessus.
