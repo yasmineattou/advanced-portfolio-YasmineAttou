@@ -94,4 +94,19 @@ Tutoriel: Comment faire le Lighthouse et la capture
    2. Lance Lighthouse sur l’URL publique: https://yasmineattou.github.io/advanced-portfolio-YasmineAttou/.
    3. Même processus : capture, image dans `assets/images/lighthouse.png`.
 ---
-   
+   ## Workflow Git
+
+Le projet respecte un workflow proche des standards pro :
+
+- `main` : branche stable (production)
+- `feature/hero` : implémentation de la section Héros (PR + squash merge)
+- `fix/cta-mobile` : correction du bug CTA mobile (issue #1 liée à la PR)
+- Issues utilisées pour tracer les bugs et améliorations
+- PR systématiques avec auto-critique
+- Version finale taguée : **v1.0.0**
+---
+## Bugs corrigés
+---
+## Licence
+Projet réalisé dans le cadre d’un exercice pédagogique.  
+Utilisation libre à des fins d’apprentissage.
