@@ -42,3 +42,25 @@ Pas de build nécessaire.
 2. Ouvrir index.html dans un navigateur :
 soit double-clic sur index.html,
 soit via un petit serveur local (ex. VS Code Live Server).
+
+---
+
+## Checklist
+
+ One-page portfolio (UX + dev) OK
+ Héros avec promesse claire OK
+ CTA principal « Demander un devis » OK
+ Section Services OK
+ Section Projets avec 3 cartes + KPI (+22% conv, etc.) OK
+ Section Compétences OK
+ Section Contact avec mailto: + formulaire HTML OK
+ Accessibilité : skip-link, alt pertinents, focus visible, contraste OK
+ SEO : <title>, meta description, Open Graph, lien sitemap.xml OK
+ Bootstrap 5 (CDN) + CSS custom OK
+ Navbar sticky (.sticky-top) OK
+ Carte projet avec badge Nouveau chevauchant l’image OK
+ Images avec width/height + loading="lazy" + decoding="async" OK
+ CSS unique (minifié ou optimisé) OK
+ Git : branche feature/hero, PR, squash, tag v1.0.0 NOK
+ Issue « Fix: CTA non cliquable sur mobile » NOK
+ GitHub Pages activé NOK
