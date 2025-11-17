@@ -47,23 +47,23 @@ soit via un petit serveur local (ex. VS Code Live Server).
 
 ## Checklist
 
- One-page portfolio (UX + dev) OK
- Héros avec promesse claire OK
- CTA principal « Demander un devis » OK
- Section Services OK
- Section Projets avec 3 cartes + KPI (+22% conv, etc.) OK
- Section Compétences OK
- Section Contact avec mailto: + formulaire HTML OK
- Accessibilité : skip-link, alt pertinents, focus visible, contraste OK
- SEO : <title>, meta description, Open Graph, lien sitemap.xml OK
- Bootstrap 5 (CDN) + CSS custom OK
- Navbar sticky (.sticky-top) OK
- Carte projet avec badge Nouveau chevauchant l’image OK
- Images avec width/height + loading="lazy" + decoding="async" OK
- CSS unique (minifié ou optimisé) OK
- Git : branche feature/hero, PR, squash, tag v1.0.0 NOK
- Issue « Fix: CTA non cliquable sur mobile » NOK
- GitHub Pages activé NOK
+ - One-page portfolio (UX + dev) OK
+ - Héros avec promesse claire OK
+ - CTA principal « Demander un devis » OK
+ - Section Services OK
+ - Section Projets avec 3 cartes + KPI (+22% conv, etc.) OK
+ - Section Compétences OK
+ - Section Contact avec mailto: + formulaire HTML OK
+ - Accessibilité : skip-link, alt pertinents, focus visible, contraste OK
+ - SEO : <title>, meta description, Open Graph, lien sitemap.xml OK
+ - Bootstrap 5 (CDN) + CSS custom OK
+ - Navbar sticky (.sticky-top) OK
+ - Carte projet avec badge Nouveau chevauchant l’image OK
+ - Images avec width/height + loading="lazy" + decoding="async" OK
+ - CSS unique (minifié ou optimisé) OK
+ - Git : branche feature/hero, PR, squash, tag v1.0.0 NOK
+ - Issue « Fix: CTA non cliquable sur mobile » NOK
+ - GitHub Pages activé NOK
 
 ---
 
@@ -89,7 +89,7 @@ Tutoriel: Comment faire le Lighthouse et la capture
          - prends une capture d’écran des scores,
          - enregistre-la dans `assets/images/lighthouse.png`.
       7. Ajoute l’image dans ton README comme ci-dessus.
-   ### Option B – après GitHub Pages
+   ### Après activation de GitHub Pages:
    1. Active GitHub Pages.
    2. Lance Lighthouse sur l’URL publique: https://yasmineattou.github.io/advanced-portfolio-YasmineAttou/.
    3. Même processus : capture, image dans `assets/images/lighthouse.png`.
